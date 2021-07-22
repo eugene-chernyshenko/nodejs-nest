@@ -1,0 +1,16 @@
+node:
+  version: 10.15.3
+  packageManager: npm
+  packageJson: package.json
+  packageLock: package-lock.json
+  buildScript: build
+  startScript: start
+  port: 3000
+
+env:
+  - name: MYSQL_PASSWORD
+    value: secret
+  - name: MYSQL_USER
+    value: myuser
+  - name: MYSQL_DATABASE
+    value: db1
