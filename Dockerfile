@@ -4,7 +4,7 @@ WORKDIR /app
 
 CMD ["npm", "run", "start"]
 
-ADD package.json package-lock.json .
+ADD package.json package-lock.json ./
 
 RUN npm install
 
